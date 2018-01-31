@@ -1,0 +1,34 @@
+実施テキスト：達人に学ぶDB設計徹底指南書
+
+実施者：玉利仁美
+実施日：1月31日
+
+[演習9－2] 実数のデータ型
+
+[演習内容]
+ 入れ子区間モデルの「左端」及び「右端」の列を実数するためのデータ型を、以下のDBMSの最新バージョンについて調べなさい。
+ ・Oracle
+ ・SQLServer
+ ・DB2
+ ・PostgreSQL
+ ・MySQL
+ 
+回答
+ ・Oracle     : NUMBER(桁数,小数点以下桁数)
+ ・SQLServer  : decimal型
+ ・DB2        : DECIMAL/NUMERIC/DOUBLE
+ ・PostgreSQL : decimal/numeric
+ ・MySQL      : FLOAT/DOUBLE
+
+参考資料：
+Oracle SQL NUMBER型 クイックリファレンス
+(http://www.iceprobe.net/database/oracle/oraorasql/sql_datakata_number.php)
+小数型データ、浮動小数型データ、および実数型データの使用
+(https://technet.microsoft.com/ja-jp/library/ms187912(v=sql.105).aspx)
+数値データ・タイプ
+(https://www.ibm.com/support/knowledgecenter/ja/SSEPEK_10.0.0/intro/src/tpc/db2z_numericdatatypes.html)
+数値データ型</TITLE
+(https://www.postgresql.jp/document/9.4/html/datatype-numeric.html)
+浮動小数点数型 - MySQLのデータ型 - MySQLの使い方
+(https://www.dbonline.jp/mysql/type/index2.html)
+
